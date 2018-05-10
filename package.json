@@ -1,6 +1,6 @@
 {
   "name": "npm-typescript-starter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -26,13 +26,27 @@
       "^.+\\.(t|j)sx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caki0915/npm-typescript-starter.git"
   },
-  "keywords": ["typescript", "starter", "starterkit", "npm", "package", "example"],
+  "keywords": [
+    "typescript",
+    "starter",
+    "starterkit",
+    "npm",
+    "package",
+    "example"
+  ],
   "author": "Carl-Johan Kihl",
   "license": "MIT",
   "bugs": {
