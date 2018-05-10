@@ -2,7 +2,7 @@
   "name": "npm-typescript-starter",
   "version": "0.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "clean": "rimraf lib",
