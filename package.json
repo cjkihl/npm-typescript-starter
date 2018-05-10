@@ -12,7 +12,9 @@
     "typecheck": "tsc --noEmit",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "preversion": "npm run test",
+    "version": "npm run build"
   },
   "prettier": {
     "printWidth": 120,
