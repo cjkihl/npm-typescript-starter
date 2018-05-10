@@ -1,2 +1,7 @@
 # Don't publish source files
 src
+
+.prettierignore
+tsconfig.json
+tslint.json
+__tests__/
