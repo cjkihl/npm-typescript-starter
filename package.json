@@ -14,7 +14,8 @@
     "lint": "tslint -p tsconfig.json",
     "prepublish": "npm run build",
     "preversion": "npm run test",
-    "version": "npm run build"
+    "version": "npm run build",
+    "postversion": "git push && git push --tags"
   },
   "prettier": {
     "printWidth": 120,
